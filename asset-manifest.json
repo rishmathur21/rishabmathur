@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/rishabmathur/static/css/main.5f361e03.chunk.css",
-    "main.js": "/rishabmathur/static/js/main.de105f09.chunk.js",
-    "main.js.map": "/rishabmathur/static/js/main.de105f09.chunk.js.map",
+    "main.js": "/rishabmathur/static/js/main.d2fac3cf.chunk.js",
+    "main.js.map": "/rishabmathur/static/js/main.d2fac3cf.chunk.js.map",
     "runtime-main.js": "/rishabmathur/static/js/runtime-main.61d1cd7d.js",
     "runtime-main.js.map": "/rishabmathur/static/js/runtime-main.61d1cd7d.js.map",
     "static/js/2.9f371fa4.chunk.js": "/rishabmathur/static/js/2.9f371fa4.chunk.js",
     "static/js/2.9f371fa4.chunk.js.map": "/rishabmathur/static/js/2.9f371fa4.chunk.js.map",
     "index.html": "/rishabmathur/index.html",
-    "precache-manifest.3bccaffe8e2293f93bcfc8e1fe3aea88.js": "/rishabmathur/precache-manifest.3bccaffe8e2293f93bcfc8e1fe3aea88.js",
+    "precache-manifest.73daeb743aa8c027aff1dfbdf6bf6179.js": "/rishabmathur/precache-manifest.73daeb743aa8c027aff1dfbdf6bf6179.js",
     "service-worker.js": "/rishabmathur/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/rishabmathur/static/css/main.5f361e03.chunk.css.map",
     "static/js/2.9f371fa4.chunk.js.LICENSE.txt": "/rishabmathur/static/js/2.9f371fa4.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.61d1cd7d.js",
     "static/js/2.9f371fa4.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.de105f09.chunk.js"
+    "static/js/main.d2fac3cf.chunk.js"
   ]
 }
