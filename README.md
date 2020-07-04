@@ -24,9 +24,9 @@ Next, I made an about section. Whenever I have envisioned or attempted my websit
 Finally after I finished a basic version of the site, I got to deploying it. I set up github pages and tried to link the DNS entries with my custom domain. There was some trouble, especially with the application trying to read its CSS files from the %PUBLIC_URL%. Finally, I got something up there.
 
 ## Next Steps
-- Get HTTPS to work. During the deploy, Enforcing HTTPS did not quite work out.
-- Strengthen the mobile layout. While I started to handle media queries, it still looks a little janky on the phone. Especially the horizontal scrolling menus.
-- Add a 'contact' subsection or footer.
-- Highlight which subsection you are in from the nav bar. 
-- Get designed logos (a bicycle, a tabla, a plate, an airplane...) and display those on the home page. (Possible with some animation)
-- Add more content
+- [x] Get HTTPS to work. During the deploy, Enforcing HTTPS did not quite work out.
+- [ ]  Strengthen the mobile layout. While I started to handle media queries, it still looks a little janky on the phone. Especially the horizontal scrolling menus.
+- [ ]  Add a 'contact' subsection or footer.
+- [ ]  Highlight which subsection you are in from the nav bar. 
+- [ ]  Get designed logos (a bicycle, a tabla, a plate, an airplane...) and display those on the home page. (Possible with some animation)
+- [ ]  Add more content
