@@ -1,68 +1,32 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Personal Website for Rishab Mathur
 
-## Available Scripts
+I have owned the domain rishabmathur dot com for years, but it was a shame that I wasn't using it. I took the opportunity during the quarantine to built a website using React.
 
-In the project directory, you can run:
+Live at: rishabmathur.com
 
-### `npm start`
+## Local Start up
+1) Clone Repository 
+2) run ```npm start```
+3) visit http://localhost:3000
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## How I Built This
+I started by making sure the foundation of the website was strong. I wanted it to be easily extendable and conveniently adjustable. CSS Styling did not come naturally to me, and in the initial prototypes I struggled with getting things centered as I wanted. What I ended up doing was finding a website template respoitory that had a lot of styling in place. The problem was that it was too much styling, I didn't know what most of the code did. So I rebuilt it. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+I started from scratch and rebuilt parts of the template I wanted to emulate to find out how the styles affected the layout. Eventually I became comfortable in centering the components, adjusting their colors and fonts with the minimum amount of code I thought I needed. Addtionally, I used this template to help me figure out the navigation.
 
-### `npm test`
+One helpful thing I did is reading the data for the site from a JSON. I do it all the time at work, but in all my attempts at a personal website I never thought about that. This makes the website so extendable! If I ever want to add a new article link or timeline entry or even change my name, I don't have to adjust my code!
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Now that I had the foundations in place, I had to figure out the actual content I want to show. How do I make this from a derivation of template to a true personal site? 
 
-### `npm run build`
+First, I included a section for linking any articles. I found a react library that makes horizontal scrolling menus and implemented that to have a list of many links without overflowing the page. 
+Next, I made an about section. Whenever I have envisioned or attempted my website, I always thought I'd include some kind of timeline to chronicle siginificant events in my life. I think it is an effective way to engage with the user. After much exploring about the various libraries available and how I would position it on the site, I found a react-vertical-timeline library that I integrated into the site. 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Finally after I finished a basic version of the site, I got to deploying it. I set up github pages and tried to link the DNS entries with my custom domain. There was some trouble, especially with the application trying to read its CSS files from the %PUBLIC_URL%. Finally, I got something up there.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+## Next Steps
+- Get HTTPS to work. During the deploy, Enforcing HTTPS did not quite work out.
+- Strengthen the mobile layout. While I started to handle media queries, it still looks a little janky on the phone. Especially the horizontal scrolling menus.
+- Add a 'contact' subsection or footer.
+- Highlight which subsection you are in from the nav bar. 
+- Get designed logos (a bicycle, a tabla, a plate, an airplane...) and display those on the home page. (Possible with some animation)
+- Add more content
