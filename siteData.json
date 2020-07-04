@@ -82,18 +82,18 @@
         "description": "Speakers are super cool" 
       },
       {
-        "event": "Moved to Naperville",
-        "location": "Naperville, IL",
-        "type": "move",
-        "date": "August 2018",
-        "description": "Eggs are cheap here"
-      },
-      {
         "event": "GE Internship",
         "location": "Chicago, IL",
         "type": "work",
         "date": "June 2018",
         "description": "A Lavish life in the city" 
+      },
+      {
+        "event": "Moved to Naperville",
+        "location": "Naperville, IL",
+        "type": "move",
+        "date": "August 2018",
+        "description": "Eggs are cheap here"
       },
       {
         "event": "Second solo trip",
