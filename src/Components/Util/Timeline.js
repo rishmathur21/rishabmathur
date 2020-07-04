@@ -103,7 +103,6 @@ class Timeline extends Component {
 
     if (this.props.data) {
       this.timelineItems = MakeTimeline(this.props.data)
-      console.log(this.timelineItems)
     }
 
     return (
