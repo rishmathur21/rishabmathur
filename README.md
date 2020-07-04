@@ -9,6 +9,11 @@ Live at: https://rishabmathur.com
 2) run ```npm start```
 3) visit http://localhost:3000
 
+## Tools Used
+- React
+- HTML/CSS
+- JavaScript
+
 ## How I Built This
 I started by making sure the foundation of the website was strong. I wanted it to be easily extendable and conveniently adjustable. CSS Styling did not come naturally to me, and in the initial prototypes I struggled with getting things centered as I wanted. What I ended up doing was finding a website template respoitory that had a lot of styling in place. The problem was that it was too much styling, I didn't know what most of the code did. So I rebuilt it. 
 
