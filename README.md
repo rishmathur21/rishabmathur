@@ -1,6 +1,6 @@
 # Personal Website for Rishab Mathur
 
-I have owned the domain rishabmathur dot com for years, but it was a shame that I wasn't using it. I took the opportunity during the quarantine to built a website using React.
+I have owned the domain rishabmathur dot com for years, but never really used it. I took the opportunity during the quarantine to built a website using React.
 
 Live at: https://rishabmathur.com
 
